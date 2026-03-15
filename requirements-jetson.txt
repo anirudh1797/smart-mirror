@@ -1,0 +1,9 @@
+# Jetson Orin Nano overrides
+# Install PyTorch from NVIDIA's wheel (not PyPI):
+#   pip install torch from https://developer.nvidia.com/embedded/downloads
+# Install OpenCV built with CUDA support (not pip)
+# PyQt5 from apt: sudo apt install python3-pyqt5
+
+-r requirements.txt
+# torch -- installed from NVIDIA wheel, not pip
+# opencv -- built from source with CUDA
